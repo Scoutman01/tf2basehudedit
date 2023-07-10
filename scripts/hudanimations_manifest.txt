@@ -1,0 +1,9 @@
+hudanimations_manifest
+
+{
+	"file"			"scripts/hudanimations_idhud.txt"
+	"file"			"scripts/hudanimations.txt"
+//	Uncomment the line below to enable custom colors for uber large uber value:	
+//	"file"			"advanced/scripts/hudanimations_tf - large uber value.txt"
+	"file"			"scripts/hudanimations_tf.txt"
+}

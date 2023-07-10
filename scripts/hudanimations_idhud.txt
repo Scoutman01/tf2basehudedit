@@ -1,0 +1,25 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate 	HudTournamentSetup						Position	"c-90 -63"			Linear 0.0 0.001
+	Animate 	HudTournamentSetup						Position	"c-90 63"			Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate 	HudTournamentSetup						Position	"c-90 63"			Linear 0.0 0.001
+	Animate 	HudTournamentSetup						Position	"c-90 -63"			Spline 0.001 0.2
+}
+
+//===========================================
+
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"200"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-400 c-0"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+//===========================================
